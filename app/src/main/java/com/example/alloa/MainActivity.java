@@ -15,23 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.imprint);
 
-        ImageButton button = (ImageButton)findViewById(R.id.neckOpen);
-        LinearLayout layout = (LinearLayout)findViewById(R.id.necklace);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(layout.getVisibility() == layout.GONE){
-                    layout.setVisibility(layout.VISIBLE);
-                    button.setImageResource(R.drawable.close);
-                }
-                else{
-                    layout.setVisibility(layout.GONE);
-                    button.setImageResource(R.drawable.open);
-                }
-
-            }
-        });
     }
 
 
