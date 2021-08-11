@@ -11,7 +11,8 @@
         app:contentPadding="10dp"
         android:layout_marginBottom="24dp"
         app:cardUseCompatPadding="true"
-        app:cardCornerRadius="4dp">
+        app:cardCornerRadius="4dp"
+        android:elevation="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,8 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:orientation="vertical"
-                android:visibility="visible"
-                android:layout_gravity="center_horizontal|bottom">
+                android:visibility="visible">
 
                 <LinearLayout
                     android:layout_width="match_parent"
